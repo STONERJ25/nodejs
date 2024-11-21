@@ -7,6 +7,7 @@ const fs = require('fs');
 const helmet = require('helmet');
 const cors = require('cors');
 const app = express();
+const server = http.createServer(app);
 const PORT = 8675;
 
 
