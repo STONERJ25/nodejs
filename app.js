@@ -4,7 +4,6 @@ const indexRouter = require('./routes/index');
 const WebSocket = require('ws');
 const http = require('http');
 const fs = require('fs');
-const path = require('path');
 const helmet = require('helmet');
 const cors = require('cors');
 const app = express();
